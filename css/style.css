@@ -83,7 +83,9 @@ p{
 	font-weight: 400;
 	line-height: 40px;
 }
-
+ul{
+	margin-bottom: 59px;
+}
 ul li{
 	padding-left: 30px;
 	background: url("../img/check_icon.png") 0 8px no-repeat;
@@ -122,12 +124,14 @@ ul .ul4{
 }
 
 .full-story{
-	height: 130px;
-	padding-top: 59px;
-	padding-left: 38px;
-	padding-bottom: 30px;
-	text-align: left center;
-	background: url("../img/Shape_2.png") 160px 70px no-repeat, url("../img/Rounded_Rectangle_1.png") -10px 27px no-repeat;
+	border-radius: 30px;
+	height: 44px;
+	width: 199px;
+	margin-bottom: 100px;
+	padding-top: 2px;
+	padding-left: 25px;
+	text-align: left;
+	background: url("../img/Shape_2.png") 150px 15px no-repeat, #80b7b3;
 	color: #ffffff;
 	font-family: "Arial MT";
 	font-size: 14px;
@@ -135,6 +139,13 @@ ul .ul4{
 	line-height: 40px;
 	text-transform: uppercase;
 	letter-spacing: 2.8px;
+}
+
+.full-story:hover{
+	background: url("../img/Shape_2.png") 150px 15px no-repeat, #3a5856;
+}
+.full-story:active{
+	background: url("../img/Shape_2.png") 150px 15px no-repeat, #818181;
 }
 /* .list{
 	margin: 0 0 50px 0;
